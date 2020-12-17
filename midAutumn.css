@@ -202,6 +202,7 @@ header .logo {
   top: 50%;
   right: 0%;
   transform: translate(-250%, 300%);
+  z-index: 10;
 }
 .cover button p {
   font-family: "SVN-Gilroy Bold";
@@ -244,17 +245,33 @@ header .logo {
 .s3 {
   margin: auto;
   width: 1440px;
-  height: auto;
+  height: 716px;
   position: relative;
 }
-.s3 .background {
+/* .s3 .background {
   width: 100%;
   height: auto;
   position: absolute;
 }
 .s3 .background img {
   width: 100%;
-}
+  height: auto;
+} */
 .s3 .product-left {
+  height: auto;
   position: absolute;
+  top: 27%;
+  left: 18%;
 }
+.s3 .product-right {
+  height: auto;
+  position: absolute;
+  top: 27%;
+  right: 19%;
+}
+/* s4  */
+.s4 {
+  width: 1440px;
+  margin: auto;
+}
+
