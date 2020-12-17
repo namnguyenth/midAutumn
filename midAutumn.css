@@ -1,0 +1,260 @@
+@font-face {
+  font-family: "SVN-Gilroy Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("SVNGilroy\ Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("SVNGilroy Bold.woff") format("woff");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --Do: #d1181e;
+  --VangNhat: #ffedcf;
+}
+
+@keyframes xoay {
+  0% {
+    transform: rotate(-5deg);
+  }
+  66.6% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+@keyframes maylangthang {
+  0% {
+    left: -25%;
+  }
+  66.6% {
+    left: -10%;
+  }
+  100% {
+    left: -25%;
+  }
+}
+@keyframes maylangthang2 {
+  0% {
+    right: 25%;
+  }
+  66.6% {
+    right: 0%;
+  }
+  100% {
+    right: 20%;
+  }
+}
+header {
+  width: 1440px;
+  /* width: 100%; */
+  height: 33px;
+  background-color: var(--Do);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+header .logo {
+  z-index: 5;
+}
+/* cover  */
+.cover {
+  position: relative;
+  margin: auto;
+  width: 1440px;
+}
+.cover .background {
+  height: auto;
+  width: 100%;
+}
+.cover .background img {
+  vertical-align: middle;
+  width: 100%;
+  border-style: none;
+}
+.cover .lantern-left-l {
+  width: 100px;
+  background-color: transparent;
+  position: absolute;
+  top: 11.3%;
+  left: 3%;
+  animation: xoay 5s infinite;
+}
+.cover .lantern-left-l img {
+  position: absolute;
+  margin: auto;
+}
+.cover .lantern-left-s {
+  width: 100px;
+  background-color: transparent;
+  position: absolute;
+  top: 9.8%;
+  left: 9%;
+  animation: xoay 5s infinite;
+}
+.cover .lantern-left-s img {
+  position: absolute;
+  margin: auto;
+  width: 63%;
+}
+
+/* lantern right  */
+.cover .lantern-right-l {
+  width: 100px;
+  background-color: transparent;
+  position: absolute;
+  top: 9.1%;
+  right: 3%;
+  animation: xoay 5s infinite;
+}
+.cover .lantern-right-l img {
+  position: absolute;
+  margin: auto;
+}
+.cover .lantern-right-s {
+  width: 100px;
+  background-color: transparent;
+  position: absolute;
+  top: 9.8%;
+  right: 6%;
+  animation: xoay 5s infinite;
+}
+.cover .lantern-right-s img {
+  position: absolute;
+  width: 60%;
+  margin: auto;
+}
+.cover input {
+  font-family: "SVN-Gilroy Bold";
+  position: absolute;
+  /* width: 17.2%; */
+  width: 20.2%;
+  /* width: 247px; */
+  height: 24px;
+  border: none;
+  outline: none;
+}
+.cover #name {
+  font-family: "SVN-Gilroy Bold";
+  position: absolute;
+  /* width: 17.2%; */
+  width: 20.2%;
+  top: 50%;
+  right: 0%;
+  transform: translate(-50%, -435%);
+  height: 24px;
+  border: none;
+}
+.cover #phone {
+  position: absolute;
+  /* width: 17.2%; */
+  width: 20.2%;
+  top: 50%;
+  right: 0%;
+  transform: translate(-50%, -240%);
+  height: 24px;
+  border: none;
+}
+.cover #email {
+  position: absolute;
+  /* width: 17.2%; */
+  width: 20.2%;
+  top: 50%;
+  right: 0%;
+  transform: translate(-50%, -40%);
+  height: 24px;
+  border: none;
+}
+.cover #textbox {
+  position: absolute;
+  /* width: 17.2%; */
+  width: 20.2%;
+  top: 50%;
+  right: 0%;
+  transform: translate(-50%, 162%);
+  height: 24px;
+  border: none;
+}
+
+.cover button {
+  position: absolute;
+  padding: 7px 11px;
+  background-color: #fff100;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  top: 50%;
+  right: 0%;
+  transform: translate(-250%, 300%);
+}
+.cover button p {
+  font-family: "SVN-Gilroy Bold";
+  font-weight: 700;
+  font-size: 10px;
+  color: #6a6e71;
+}
+/* cloud */
+.cover .cloud-left {
+  position: absolute;
+  top: 62%;
+  left: 0%;
+  animation: maylangthang 30s infinite;
+}
+.cover .cloud-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(25%, 29%);
+  animation: maylangthang2 30s infinite;
+}
+/* hop qua */
+.cover .box {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, 29%);
+}
+/* quote */
+.quote {
+  margin: auto;
+  width: 1440px;
+  height: auto;
+}
+.quote .background {
+  width: 100%;
+  height: auto;
+}
+/* s3 */
+.s3 {
+  margin: auto;
+  width: 1440px;
+  height: auto;
+  position: relative;
+}
+.s3 .background {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+.s3 .background img {
+  width: 100%;
+}
+.s3 .product-left {
+  position: absolute;
+}
