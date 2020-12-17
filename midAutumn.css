@@ -298,6 +298,7 @@ header .logo {
   width: 1440px;
   margin: auto;
   position: relative;
+  height: auto;
 }
 .s5 .product-left {
   height: auto;
@@ -310,4 +311,56 @@ header .logo {
   position: absolute;
   top: 26%;
   right: 22.5%;
+}
+/* s6 */
+.s6 {
+  width: 1440px;
+  margin: auto;
+  height: auto;
+  position: relative;
+
+}
+.s6 .background {
+  width: 100%;
+  height: auto;
+}
+.s6 .background img{
+  width: 100%;
+  height: auto;
+}
+.s6 input {
+  font-family: "SVN-Gilroy Bold";
+  position: absolute;
+  /* width: 17.2%; */
+  width: 36.2%;
+  /* width: 247px; */
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: red;
+}
+.s6 #bot-name {
+  right: 7%;
+  top: 25%;
+}
+
+
+.cover button {
+  position: absolute;
+  padding: 7px 11px;
+  background-color: #fff100;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  top: 50%;
+  right: 0%;
+  transform: translate(-250%, 300%);
+  z-index: 10;
+}
+.cover button p {
+  font-family: "SVN-Gilroy Bold";
+  font-weight: 700;
+  font-size: 10px;
+  color: #6a6e71;
 }
