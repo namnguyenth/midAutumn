@@ -245,7 +245,7 @@ header .logo {
 .s3 {
   margin: auto;
   width: 1440px;
-  height: 716px;
+  height: auto;
   position: relative;
 }
 /* .s3 .background {
@@ -273,5 +273,42 @@ header .logo {
 .s4 {
   width: 1440px;
   margin: auto;
+  position: relative;
+}
+.s4 .product-left {
+  height: auto;
+  position: absolute;
+  top: 27%;
+  left: 7.6%;
+}
+.s4 .product-center {
+  height: auto;
+  position: absolute;
+  top: 27%;
+  left: 37.5%;
+}
+.s4 .product-right {
+  height: auto;
+  position: absolute;
+  top: 27%;
+  right: 8.5%;
+}
+/* s5  */
+.s5 {
+  width: 1440px;
+  margin: auto;
+  position: relative;
+}
+.s5 .product-left {
+  height: auto;
+  position: absolute;
+  top: 26%;
+  left: 21.5%;
 }
 
+.s5 .product-right {
+  height: auto;
+  position: absolute;
+  top: 26%;
+  right: 22.5%;
+}
