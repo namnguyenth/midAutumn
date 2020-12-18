@@ -79,16 +79,24 @@ header {
   margin: auto;
   display: flex;
   justify-content: center;
+  /* position: relative; */
 }
 header .logo {
+  /* width: 2.57%; */
   z-index: 5;
 }
+header .logo img{
+  width: 100%;
+  height: auto;
+}
+
 /* cover  */
 .cover {
   position: relative;
   margin: auto;
   /* width: 100%; */
   width: 100%;
+  overflow: hidden;
 }
 .cover .background {
   height: auto;
@@ -388,7 +396,7 @@ header .logo {
   border: none;
   outline: none;
   overflow: hidden;
-  background-color: blue;
+  /* background-color: blue; */
 }
 .s6 #bot-name {
   right: 6.8%;

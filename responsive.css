@@ -1,0 +1,120 @@
+@media only screen and (max-width: 1366px) {
+  .s6 button p {
+    font-family: "SVN-Gilroy Bold";
+    font-weight: 700;
+    font-size: 15px;
+    color: #6a6e71;
+  }
+  .mobile {
+    display: none;
+  }
+}
+@media only screen and (max-width: 790px) {
+  .laptop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    position: relative;
+  }
+  .mobile logo {
+    display: none;
+  }
+
+  /* s6  */
+  .s6 {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    position: relative;
+  }
+  .s6 .background {
+    width: 100%;
+    height: auto;
+  }
+  .s6 .background img {
+    width: 100%;
+    height: auto;
+  }
+  .s6 input {
+    font-family: "SVN-Gilroy Bold";
+    position: absolute;
+    /* width: 17.2%; */
+    width: 72.2%;
+    /* width: 247px; */
+    height: 3.8%;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    /* background-color: blue; */
+  }
+  .s6 #bot-name {
+    right: 13.8%;
+    top: 16.5%;
+  }
+  .s6 #bot-phone {
+    right: 13.8%;
+    top: 24%;
+  }
+  .s6 #bot-email {
+    right: 13.8%;
+    top: 31.5%;
+  }
+  .s6 #bot-textbox {
+    position: absolute;
+    right: 13.8%;
+    top: 38.5%;
+    width: 72.2%;
+    height: 3.8%;
+    outline: none;
+    border: none;
+    /* background-color: blue; */
+  }
+  s6 {
+    position: relative;
+  }
+  .s6 button {
+    width: 80.6%;
+    height: 6.6%;
+    position: absolute;
+    background-color: #fff100;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    top: 46%;
+    right: 10.5%;
+    z-index: 10;
+    overflow: hidden;
+  }
+  .s6 button p {
+    font-family: "SVN-Gilroy Bold";
+    font-weight: 700;
+    font-size: 25px;
+    color: #6a6e71;
+  }
+  .s6 .infor {
+    position: absolute;
+    width: 34.5%;
+    height: auto;
+    top: 0;
+    right: 50%;
+  }
+  .s6 .infor img {
+    width: 100%;
+    height: auto;
+  }
+  /* circle  */
+  .circle {
+      position: fixed;
+      width: 100%;
+      height: auto;
+      background-color: transparent;
+      left: 70%;
+      top:79%;
+      z-index: 1000;
+  }
+  .circle i{
+      width: 100%;
+      font-size: 80px;
+  }
