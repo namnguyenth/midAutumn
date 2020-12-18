@@ -17,7 +17,7 @@
     display: block;
     position: relative;
   }
-  .mobile logo {
+  .mobile .logo {
     display: none;
   }
 
@@ -70,7 +70,7 @@
     border: none;
     /* background-color: blue; */
   }
-  s6 {
+  .s6 {
     position: relative;
   }
   .s6 button {
@@ -117,4 +117,12 @@
   .circle i{
       width: 100%;
       font-size: 80px;
+  }
+  @media only screen and (max-width: 600px) {
+    .s6 button p {
+      font-family: "SVN-Gilroy Bold";
+      font-weight: 700;
+      font-size: 15px;
+      color: #6a6e71;
+    }
   }
