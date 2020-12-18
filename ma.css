@@ -29,6 +29,17 @@ a {
 
 @keyframes xoay {
   0% {
+    transform: rotate(5deg);
+  }
+  66.6% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
+}
+@keyframes xoaytrai {
+  0% {
     transform: rotate(-5deg);
   }
   66.6% {
@@ -51,13 +62,13 @@ a {
 }
 @keyframes maylangthang2 {
   0% {
-    right: 25%;
+    right: -15%;
   }
   66.6% {
     right: 0%;
   }
   100% {
-    right: 20%;
+    right: -15%;
   }
 }
 header {
@@ -94,7 +105,7 @@ header .logo {
   position: absolute;
   top: 11.3%;
   left: 3%;
-  animation: xoay 5s infinite;
+  animation: xoaytrai 5s infinite;
 }
 .cover .lantern-left-l img {
   width: 100%;
@@ -122,7 +133,7 @@ header .logo {
   position: absolute;
   top: 9.1%;
   right: 1.15%;
-  animation: xoay 5s infinite;
+  animation: xoaytrai 5s infinite;
 }
 .cover .lantern-right-l img {
   width: 100%;
@@ -217,7 +228,7 @@ header .logo {
   position: absolute;
   top: 61%;
   left: 0%;
-  animation: maylangthang 1s infinite;
+  animation: maylangthang 25s infinite;
   overflow: hidden;
 }
 .cover .cloud-left img {
@@ -225,13 +236,12 @@ header .logo {
   height: auto;
 }
 .cover .cloud-right {
-  width: 60%;
+  width: 50%;
   position: absolute;
-  top: 50%;
-  right: 0%;
-  transform: translate(25%, 29%);
-  animation: maylangthang2 1s infinite;
-  overflow: hidden;
+  top: 59%;
+  right: -15%;
+  animation: maylangthang2 25s infinite;
+  /* overflow: hidden; */
 }
 .cover .cloud-right img {
   width: 100%;
@@ -284,12 +294,14 @@ header .logo {
   height: auto;
 } */
 .s3 .product-left {
+  width: 30.1%;
   height: auto;
   position: absolute;
-  top: 27%;
+  top: 26.5%;
   left: 18%;
 }
 .s3 .product-right {
+  width: 25.1%;
   height: auto;
   position: absolute;
   top: 27%;
@@ -306,22 +318,25 @@ header .logo {
   height: auto;
 }
 .s4 .product-left {
+  width: 21%;
   height: auto;
   position: absolute;
-  top: 27%;
+  top: 26.5%;
   left: 7.6%;
 }
 .s4 .product-center {
+  width: 20.5%;
   height: auto;
   position: absolute;
-  top: 27%;
-  left: 37.5%;
+  top: 26.9%;
+  left: 39.2%;
 }
 .s4 .product-right {
+  width: 22.7%;
   height: auto;
   position: absolute;
-  top: 27%;
-  right: 8.5%;
+  top: 27.5%;
+  right: 6.9%;
 }
 /* s5  */
 .s5 {
@@ -335,12 +350,14 @@ header .logo {
   height: auto;
 }
 .s5 .product-left {
+  width: 21.7%;
   height: auto;
   position: absolute;
-  top: 26%;
-  left: 21.5%;
+  top: 25%;
+  left: 20.5%;
 }
 .s5 .product-right {
+  width: 17.1%;
   height: auto;
   position: absolute;
   top: 26%;
@@ -367,43 +384,63 @@ header .logo {
   /* width: 17.2%; */
   width: 36.2%;
   /* width: 247px; */
-  height: 40px;
+  height: 6.5%;
   border: none;
   outline: none;
-  background-color: red;
+  overflow: hidden;
+  background-color: blue;
 }
 .s6 #bot-name {
   right: 6.8%;
   top: 25%;
+  
 }
 .s6 #bot-phone {
   right: 6.8%;
-  top: 37%;
+  top: 38%;
 }
 .s6 #bot-email {
   right: 6.8%;
-  top: 49%;
+  top: 50%;
 }
-.s6 #bot-textbox {
+.s6 #bot-textbox{
+  position: absolute;
   right: 6.8%;
-  top: 60%;
+  top: 64%;
+  width: 36.2%;
+  height: 7.5%;
+  outline: none;
+  border: none;
 }
 
 .s6 button {
+  width: 37.6%;
+  height: 11.6%;
   position: absolute;
-  padding: 19px 24px;
-  background-color: #333;
+  background-color  : #fff100;
   border: none;
   border-radius: 5px;
   outline: none;
   cursor: pointer;
-  top: 75.5%;
+  top: 78%;
   right: 6.5%;
   z-index: 10;
+  overflow: hidden;
 }
 .s6 button p {
   font-family: "SVN-Gilroy Bold";
   font-weight: 700;
   font-size: 25px;
   color: #6a6e71;
+}
+/* footer  */
+footer {
+  background-color: var(--Do);
+  padding: 30px 80px;
+}
+footer p{
+  font-family: "SVN-Gilroy Bold";
+  font-size: 12px;
+  text-align: center;
+  color: #ffedcf;
 }
